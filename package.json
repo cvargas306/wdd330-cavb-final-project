@@ -1,0 +1,20 @@
+{
+  "name": "wdd330-cavb-final-project",
+  "version": "1.0.0",
+  "description": "My first web app",
+  "homepage": "https://github.com/cvargas306/wdd330-cavb-final-project#readme",
+  "bugs": {
+    "url": "https://github.com/cvargas306/wdd330-cavb-final-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvargas306/wdd330-cavb-final-project.git"
+  },
+  "license": "ISC",
+  "author": "Carlos Vargas",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
