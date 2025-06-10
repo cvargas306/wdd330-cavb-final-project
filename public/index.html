@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChordFinder</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Scales-Chords API for chord diagrams -->
+  <script async src="https://www.scales-chords.com/api/scales-chords-api.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>ChordFinder</h1>
+    <p>Find chords, lyrics, and artist info in one place</p>
+  </header>
+
+  <main>
+    <!-- 🎸 Chord Search -->
+    <section id="chord-search">
+      <h2>Search Chord</h2>
+      <input type="text" id="chordInput" placeholder="e.g., G major, A7" />
+      <button id="searchChordBtn">Show Chord</button>
+      <div id="chordDisplay"></div>
+    </section>
+
+    <!-- 🎤 Lyrics Search -->
+    <section id="lyrics-search">
+      <h2>Search Lyrics</h2>
+      <input type="text" id="artistInput" placeholder="Artist name" />
+      <input type="text" id="songInput" placeholder="Song title" />
+      <button id="searchLyricsBtn">Get Lyrics</button>
+      <div id="lyrics"></div>
+    </section>
+
+    
+    <section id="artist-info-section">
+      <h2>Artist Info</h2>
+      <div id="artist-info"></div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
