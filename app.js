@@ -2,14 +2,14 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const lastfmRoutes = require('./routes/lastfm');
-require('dotenv').config(); 
+require('dotenv').config();
 
 
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/lastfm', lastfmRoutes);
+app.use('/api/lastfm', lastfmRoutes);
 
 
 app.get('/', (req, res) => {
