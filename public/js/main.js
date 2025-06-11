@@ -9,7 +9,7 @@ document.getElementById("chordBtn").addEventListener("click", async () => {
     }
 
     try {
-        const response = await fetch(`/scaleschords/${encodeURIComponent(chord)}`);
+        const response = await fetch(`/api/scaleschords/${encodeURIComponent(chord)}`);
         const data = await response.json();
 
         if (data && data.chordName) {
